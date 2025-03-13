@@ -1,0 +1,30 @@
+{
+  "name": "whatsapp-team-reminder",
+  "version": "1.0.0",
+  "description": "Sistema de lembretes para equipes via WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "reminder",
+    "automation",
+    "team"
+  ],
+  "author": "Lucas Hora",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.47",
+    "node-cron": "^3.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

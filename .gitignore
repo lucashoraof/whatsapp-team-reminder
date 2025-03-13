@@ -1,0 +1,49 @@
+# DEPENDÊNCIAS
+node_modules
+
+# LOGS
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ARQUIVOS DE RUNTIME
+.pnp.*
+.yarn/*
+.npm
+
+# ARQUIVOS DE SISTEMA
+.DS_Store
+Thumbs.db
+
+# DIRETÓRIOS DE BUILD
+/dist
+/build
+
+# ARQUIVOS TEMPORÁRIOS
+.tmp
+.temp
+
+# COVERAGE
+/coverage
+
+# ARQUIVOS DE IDE/EDITORES
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OUTROS
+README.md
+remindersbackup.js
